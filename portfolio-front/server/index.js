@@ -13,7 +13,8 @@ app.use(cors());
 
 //https://www.mongodb.com/cloud/atlas
 
-const CONNECTION_URL = process.env.MONGO_CONNECTION_URL;
+
+// const CONNECTION_URL = process.env.MONGO_CONNECTION_URL;
 
 const PORT = process.env.PORT || 5000;
 
