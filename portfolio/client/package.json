@@ -1,5 +1,8 @@
 {
   "name": "client",
+  "homepage": "https://niallburdon.com",
+  "version": "1.0.0",
+  "description": "my react application",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
