@@ -5,7 +5,9 @@ export const Header2 = () => {
     <div className="isolate bg-beige">
 
         <div className="px-6 pt-6 lg:px-8">
-            <div className="bg-white ...">Header2</div>
+            <div className="bg-white ...">
+                <h1 className="text-4xl">Niall BURDON</h1>
+            </div>
         </div>
 
         <main>
