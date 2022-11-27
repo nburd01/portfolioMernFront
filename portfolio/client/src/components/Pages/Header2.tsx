@@ -1,5 +1,5 @@
 import React from 'react'
-import Niall_img from "../assets/Img/Photo_Niall_BW_ecretée.png";
+import Niall_img from "../../assets/Img/Photo_Niall_BW_ecretée.png";
 export const Header2 = () => {
   return (
     <div className='h-screen flex bg-beige justify-center items-center'>
