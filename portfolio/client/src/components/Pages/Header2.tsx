@@ -1,29 +1,31 @@
 import React from 'react'
-
+import Niall_img from "../assets/Img/Photo_Niall_BW_ecretée.png";
 export const Header2 = () => {
   return (
-    <div className="isolate bg-beige">
+    <div className='h-screen flex bg-beige justify-center items-center'>
 
-        <div className="px-6 pt-6 lg:px-8">
-            <div className="bg-white ...">
-                <h1 className="text-4xl">Niall BURDON</h1>
-            </div>
+    <div className='w-screen  md:px-24 sm:flex'>
+      {/* TITLE */}
+        <div className=' h-50 sm:bg-black p-4 justify-start sm:w-6/12 '>
+          <div className='sm:grid justify-start items-start py-9'>
+            <h1 className='justify-self-start font-bold text-8xl'>Niall</h1>
+            <h1 className='justify-self-start font-bold text-8xl'>Burdon</h1>
+          </div>
+          <div className="flex justify-start items-center py-9">
+            <p className='flex bg-white w-/3 md:w-/5 text-left'>A former marketer from Rennes, France, who pivoted his career into tech as a Front-End web developper. </p>
+          </div>
+      </div>
+      {/* CIRCLES */}
+        <div className='hidden -gum sm:flex relative inset-0 w-6/12 h-auto justify-center items-center'>
+          <div className='flex w-48 h-48 bg-light_purple rounded-full justify-center items-center absolute left-12 shadow-slate-50'/>
+          <div className='flex w-48 h-48 bg-main_purple rounded-full justify-center items-center absolute top-12'/>
+          <div className='flex w-48 h-48 bg-light_purple rounded-full justify-center items-center absolute right-12'/>
+          <img className='flex w-48 h-48 z-10' src={Niall_img} alt="Niall" />
         </div>
-
-        <main>
-        <div className="relative px-6 lg:px-8">
-            <div className="mx-auto max-w-3xl pt-20 pb-32 sm:pt-48 sm:pb-40">
-                <div className="hidden sm:mb-8 sm:flex sm:justify-center">
-                    <div className="relative overflow-hidden rounded-full py-1.5 px-4 text-sm leading-6 ring-1 ring-gray-900/10 hover:ring-gray-900/20">
-                        <span className="text-gray-600">
-                            Announcing our next round of funding. <a href="#" className="font-semibold text-indigo-600"><span className="absolute inset-0" aria-hidden="true"></span>Read more <span aria-hidden="true">&rarr;</span></a>
-                        </span>
-                    </div>
-                </div>
-            </div>
+        <div className='flex justify-center items-center'>
+          <img className='sm:hidden flex w-48 h-48 z-10' src={Niall_img} alt="Niall" />
         </div>
-        </main>
     </div>
+</div>
   )
 }
-
