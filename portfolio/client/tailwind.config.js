@@ -16,8 +16,11 @@ module.exports = {
       'silver': '#ecebff',
       'bubble-gum': '#ff77e9',
       'bermuda': '#78dcca',
-      'beige': '#FAF3E6'
+      'beige': '#FAF3E6',
+      'main_purple': '#7451EB',
+      'light_purple': '#C7B9FF',
     },
   },
   plugins: [],
+  assets:['./assets/fonts/'],
 }
