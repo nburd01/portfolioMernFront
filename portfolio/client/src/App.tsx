@@ -1,8 +1,7 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
-import { Header } from './components/Pages/Header';
-import { Header2 } from './components/Pages/Header2';
+import { LandingPage } from './components/Pages/Header';
+import { AboutMe } from './components/Pages/AboutMe';
 import './assets/fonts/ApercuPro-Medium.ttf'
 import './assets/fonts/ApercuPro-MediumItalic.ttf'
 import './assets/fonts/ApercuPro-ExtraLight.ttf'
@@ -17,13 +16,20 @@ import './assets/fonts/ApercuPro-ExtraLightItalic.ttf'
 import './assets/fonts/ApercuPro-Light.ttf'
 import './assets/fonts/ApercuPro-LightItalic.ttf'
 import './assets/fonts/ApercuPro-BlackItalic.ttf'
-
+import { Nav } from './components/Blocks/Nav';
+import { Contact } from './components/Pages/Contact';
+import { TechSkills } from './components/Pages/TechSkills';
+import { Projects } from './components/Pages/Projects';
 
 function App() {
   return (
     <div className="App">
-     {/* <Header/> */}
-     <Header2/>
+      <Nav/>
+      <LandingPage/>
+      <AboutMe/>
+      <TechSkills/>
+      <Projects/>
+      <Contact/>
     </div>
   );
 }
