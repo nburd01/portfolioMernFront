@@ -9,10 +9,10 @@ export const LandingPage = () => {
           <div className='flex flex-col justify-center grow h-auto'>
             {/* TITLE */}
             <div className='flex justify-center'>
-              <h1 className='flex font-extrabold italic text-center text-9xl'>Niall</h1>
+              <h1 className='flex font-extrabold italic text-center text-6xl md:text-9xl'>Niall</h1>
             </div>
             <div className='flex justify-center'>
-              <h1 className='flex font-extrabold italic text-center text-9xl'>BURDON</h1>
+              <h1 className='flex font-extrabold italic text-center text-6xl md:text-9xl'>BURDON</h1>
             </div>
             {/* DESCRIPTION */}
             <div className='flex justify-center'>
