@@ -9,10 +9,10 @@ export const LandingPage = () => {
           <div className='flex flex-col justify-center grow h-auto'>
             {/* TITLE */}
             <div className='flex justify-center'>
-              <h1 className='flex font-extrabold italic text-center text-9xl'>Niall</h1>
+              <h1 className='flex font-extrabold italic text-center text-6xl md:text-9xl'>Niall</h1>
             </div>
             <div className='flex justify-center'>
-              <h1 className='flex font-extrabold italic text-center text-9xl'>BURDON</h1>
+              <h1 className='flex font-extrabold italic text-center text-6xl md:text-9xl'>BURDON</h1>
             </div>
             {/* DESCRIPTION */}
             <div className='flex justify-center'>
@@ -29,7 +29,7 @@ export const LandingPage = () => {
         </div>
 
       {/* RIGHT */}
-        <div className='hidden yflex relative inset-0 w-6/12 h-auto justify-center items-center bg-tahiti '>
+        <div className='hidden mt-6 xl:flex relative inset-0 w-6/12 h-auto justify-center items-center bg-tahiti '>
         <div className='flex w-2/4 h-2/4 xl:shrink-0 bg-light_purple rounded-full justify-center items-center absolute left-12 shadow-lg '/>
           <div className='flex w-2/4 h-2/4 xl:shrink-0 bg-main_purple rounded-full justify-center items-center absolute top-12 shadow-lg '/>
           <div className='flex w-2/4 h-2/4 xl:shrink-0 bg-light_purple rounded-full justify-center items-center absolute right-12 shadow-lg '/>
