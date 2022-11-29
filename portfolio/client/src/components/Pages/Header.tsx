@@ -23,17 +23,17 @@ export const LandingPage = () => {
               <button className='p-3 w-1/4 bg-main_purple color text-light_purple rounded-lg'>Hire me</button>
             </div>
             {/* IMG */}
-            {/* <div className='xl:hidden flex justify-center items-center'>
+            <div className='xl:hidden flex justify-center items-center'>
               <img className='xl:hidden flex my-6 shrink-0 w-48 h-48 z-10' src={Niall_img} alt="Niall" />
-            </div> */}
+            </div>
         </div>
 
       {/* RIGHT */}
-        <div className='flex w-full mt-6  relative inset-0 xl:w-6/12 h-auto justify-center items-center bg-tahiti '>
-          <div className='flex w-2/4 h-2/4 xl:shrink-0 bg-light_purple rounded-full justify-center items-center absolute left-12 shadow-lg '/>
+        <div className='hidden mt-6 xl:flex relative inset-0 w-6/12 h-auto justify-center items-center bg-tahiti '>
+        <div className='flex w-2/4 h-2/4 xl:shrink-0 bg-light_purple rounded-full justify-center items-center absolute left-12 shadow-lg '/>
           <div className='flex w-2/4 h-2/4 xl:shrink-0 bg-main_purple rounded-full justify-center items-center absolute top-12 shadow-lg '/>
           <div className='flex w-2/4 h-2/4 xl:shrink-0 bg-light_purple rounded-full justify-center items-center absolute right-12 shadow-lg '/>
-          <img className='flex h-3/6 w-3/6 lg:w-auto z-10 ' src={Niall_img} alt="Niall" />
+          <img className='flex h-3/6 z-10 ' src={Niall_img} alt="Niall" />
         </div>
     </div>
 </div>
