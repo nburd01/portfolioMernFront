@@ -26,10 +26,9 @@ function App() {
     <div className="App">
       <Nav/>
       <LandingPage/>
-      <AboutMe/>
       <TechSkills/>
-      <Projects/>
-      <Contact/>
+      {/* <Projects/> */}
+      <Contact/>  
     </div>
   );
 }
