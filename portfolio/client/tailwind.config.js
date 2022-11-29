@@ -20,6 +20,9 @@ module.exports = {
       'main_purple': '#7451EB',
       'light_purple': '#C7B9FF',
     },
+    container: {
+      padding: '2rem',
+    },
   },
   plugins: [],
 }

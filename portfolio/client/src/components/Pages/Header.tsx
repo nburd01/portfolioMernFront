@@ -9,14 +9,14 @@ export const LandingPage = () => {
           <div className='flex flex-col justify-center grow h-auto'>
             {/* TITLE */}
             <div className='flex justify-center'>
-              <h1 className='flex font-bold text-center text-9xl'>Niall</h1>
+              <h1 className='flex font-extrabold italic text-center text-9xl'>Niall</h1>
             </div>
             <div className='flex justify-center'>
-              <h1 className='flex font-bold text-center text-9xl'>Burdon</h1>
+              <h1 className='flex font-extrabold italic text-center text-9xl'>BURDON</h1>
             </div>
             {/* DESCRIPTION */}
             <div className='flex justify-center'>
-              <p className='flex xl:w-6/12 2xl:p-auto'>A former marketer from Rennes, France, who pivoted his career into tech as a Front-End web developper.</p>
+              <p className='flex py-6 xl:w-6/12 2xl:p-auto'>A former marketer from Rennes, France, who pivoted his career into tech as a Front-End web developper.</p>
             </div>
           {/* BUTTON */}
             <div className='flex items-center justify-center '>
@@ -24,7 +24,7 @@ export const LandingPage = () => {
             </div>
             {/* IMG */}
             <div className='lg:hidden flex justify-center items-center'>
-              <img className='lg:hidden flex w-48 h-48 z-10' src={Niall_img} alt="Niall" />
+              <img className='lg:hidden flex my-6 shrink-0 w-48 h-48 z-10' src={Niall_img} alt="Niall" />
             </div>
         </div>
 
