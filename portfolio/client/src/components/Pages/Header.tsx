@@ -21,6 +21,9 @@ export const LandingPage = () => {
           {/* BUTTON */}
             <div className='flex items-center justify-center '>
               <button className='p-3 w-1/4 bg-main_purple color text-light_purple rounded-lg'>Hire me</button>
+              <form action="mailto:email@gmail.com"method="post">
+                <input className="btn" type="submit" value="Submit"/>
+              </form>
             </div>
             {/* IMG */}
             <div className='xl:hidden flex justify-center items-center'>
