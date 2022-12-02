@@ -16,7 +16,7 @@ export const LandingPage = () => {
             </div>
             {/* DESCRIPTION */}
             <div className='flex justify-center'>
-              <p className='flex py-6 xl:w-6/12 2xl:p-auto'>A former marketer from Rennes, France, who pivoted his career into tech as a Front-End web developper.</p>
+              <p className='flex py-6 xl:w-6/12 2xl:p-auto'>A marketer from Rennes, France, who pivoted his career into tech as a Front-End web developper.</p>
             </div>
           {/* BUTTON */}
             <div className='flex items-center justify-center '>

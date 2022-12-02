@@ -8,7 +8,8 @@ export const TechSkills = () => {
     return (
   <section className='container mx-auto px-4 h-2/3 ' id='TechSkills'>
     <div className='font-extrabold italic text-6xl md:text-9xl'>Tech Skills</div>
-    <div className='grid grid-cols-2 grid-flow-row gap-4'>
+    <div className='inline-bock sm:grid grid-cols-2 grid-flow-row gap-4'>
+
         <div className="max-w-sm m-10 rounded overflow-hidden shadow-lg">
           <div className="px-6 py-4 bg-beige">
             <div className="font-bold text-xl mb-2">Javascript</div>
