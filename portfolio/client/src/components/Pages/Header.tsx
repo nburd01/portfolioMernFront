@@ -20,7 +20,7 @@ export const LandingPage = () => {
             </div>
           {/* BUTTON */}
             <div className='flex items-center justify-center '>
-              <button className='p-3 w-1/4 bg-main_purple color text-light_purple rounded-lg'>Hire me</button>
+              <button className='p-3 w-1/4  bg-main_purple hover:bg-light_purple hover:duration-300 text-light_purple hover:text-main_purple rounded-lg'>Hire me</button>
               <form action="mailto:email@gmail.com"method="post">
               </form>
             </div>
@@ -32,10 +32,10 @@ export const LandingPage = () => {
 
       {/* RIGHT */}
         <div className='hidden mt-6 xl:flex relative inset-0 w-6/12 h-auto justify-center items-center'>
-        <div className='flex w-2/4 h-2/4 xl:shrink-0 bg-light_purple rounded-full justify-center items-center absolute left-12 shadow-lg '/>
-          <div className='flex w-2/4 h-2/4 xl:shrink-0 bg-main_purple rounded-full justify-center items-center absolute top-12 shadow-lg '/>
-          <div className='flex w-2/4 h-2/4 xl:shrink-0 bg-light_purple rounded-full justify-center items-center absolute right-12 shadow-lg '/>
-          <img className='flex h-3/6 z-10 ' src={Niall_img} alt="Niall" />
+        <div className='flex w-2/4 h-2/4 xl:shrink-0   bg-light_purple rounded-full justify-center items-center absolute left-12  shadow-lg hover:translate-y-2.5 hover:duration-300'/>
+          <div className='flex w-2/4 h-2/4 xl:shrink-0 bg-main_purple  rounded-full justify-center items-center absolute top-12   shadow-lg hover:translate-y-2.5 hover:duration-300'/>
+          <div className='flex w-2/4 h-2/4 xl:shrink-0 bg-light_purple rounded-full justify-center items-center absolute right-12 shadow-lg hover:translate-y-2.5 hover:duration-300'/>
+          <img className='flex h-3/6 z-10 hover:translate-y-2.5 hover:duration-300' src={Niall_img} alt="Niall" />
         </div>
     </div>
 </section>

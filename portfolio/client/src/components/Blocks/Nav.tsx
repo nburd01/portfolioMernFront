@@ -21,15 +21,15 @@ export const Nav = () => {
           </button>
         </div> */}
         <div className="hidden lg:flex lg:min-w-0 lg:flex-1 lg:justify-center lg:gap-x-12">
-          <Link to="#Home" className="font-semibold text-gray-900 hover:text-gray-900 px-1 scroll-smooth" >Home</Link>
+          <Link to="#Home" className="font-semibold text-gray-900 hover:text-gray-600 px-1 scroll-smooth">Home</Link>
 
           {/* <Link to="#About" className="font-semibold text-gray-900 hover:text-gray-900 px-1">About me</Link> */}
 
-          <Link to="#TechSkills" className="font-semibold text-gray-900 hover:text-gray-900 scroll-smooth" >Tech Skills</Link>
+          <Link to="#TechSkills" className="font-semibold text-gray-900 hover:text-gray-900 scroll-smooth">Tech Skills</Link>
 
-          <Link to="#Projects" className="font-semibold text-gray-900 hover:text-gray-900 scroll-smooth" >Projects</Link>
+          <Link to="#Projects" className="font-semibold text-gray-900 hover:text-gray-900 scroll-smooth">Projects</Link>
 
-          <Link to="#Contact" className="font-semibold text-gray-900 hover:text-gray-900 scroll-smooth" >Contact</Link>
+          <Link to="#Contact" className="font-semibold text-gray-900 hover:text-gray-100 scroll-smooth">Contact</Link>
         </div>
       </nav>
       {/* <!-- Mobile menu, show/hide based on menu open state. --> */}
