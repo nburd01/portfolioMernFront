@@ -2,7 +2,7 @@ import React from 'react'
 import Niall_img from "../../assets/Img/Photo_Niall_BW_ecretée.png";
 export const LandingPage = () => {
   return (
-    <div className='h-screen flex bg-beige justify-center items-center'>
+    <section className='h-screen flex bg-beige justify-center items-center' id='Home'>
 
       <div className='flex flex-col w-screen md:px-24 lg:flex lg:flex-row'>
         {/* LEFT */}
@@ -38,6 +38,6 @@ export const LandingPage = () => {
           <img className='flex h-3/6 z-10 ' src={Niall_img} alt="Niall" />
         </div>
     </div>
-</div>
+</section>
   )
 }

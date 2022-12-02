@@ -3,7 +3,7 @@ import { BeakerIcon } from '@heroicons/react/24/solid'
 
 export const Contact = () => {
   return (
-    <>
+    <section id='Contact'>
       {/*
         This example requires updating your template:
 
@@ -20,7 +20,7 @@ export const Contact = () => {
               src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
               alt="Your Company"
             /> */}
-            <h2 className="mt-6 text-center font-extrabold italic text-6xl md:text-9xl tracking-tight text-gray-900">
+            <h2 id="#Contact" className="mt-6 text-center font-extrabold italic text-6xl md:text-9xl tracking-tight text-gray-900">
               Contact me
             </h2>
             <p className="mt-2 text-center text-sm text-gray-600">
@@ -74,7 +74,7 @@ export const Contact = () => {
           </form>
         </div>
       </div>
-    </>
+    </section>
   )
 
 }

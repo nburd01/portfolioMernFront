@@ -1,6 +1,9 @@
 import React from 'react'
+// import { Link } from 'react-router-dom'
+import { HashLink as Link } from 'react-router-hash-link'
 
 export const Nav = () => {
+
   return (
     <div className="px-6 pt-6 lg:px-8">
       <nav className="hidden lg:flex h-9 items-center justify-between" aria-label="Global">
@@ -18,13 +21,15 @@ export const Nav = () => {
           </button>
         </div> */}
         <div className="hidden lg:flex lg:min-w-0 lg:flex-1 lg:justify-center lg:gap-x-12">
-          <a href="#" className="font-semibold text-gray-900 hover:text-gray-900 px-1">About me</a>
+          <Link to="#Home" className="font-semibold text-gray-900 hover:text-gray-900 px-1 scroll-smooth" >Home</Link>
 
-          <a href="#" className="font-semibold text-gray-900 hover:text-gray-900">Tech Skills</a>
+          {/* <Link to="#About" className="font-semibold text-gray-900 hover:text-gray-900 px-1">About me</Link> */}
 
-          <a href="#" className="font-semibold text-gray-900 hover:text-gray-900">Projects</a>
+          <Link to="#TechSkills" className="font-semibold text-gray-900 hover:text-gray-900 scroll-smooth" >Tech Skills</Link>
 
-          <a href="#" className="font-semibold text-gray-900 hover:text-gray-900">Contact</a>
+          <Link to="#Projects" className="font-semibold text-gray-900 hover:text-gray-900 scroll-smooth" >Projects</Link>
+
+          <Link to="#Contact" className="font-semibold text-gray-900 hover:text-gray-900 scroll-smooth" >Contact</Link>
         </div>
       </nav>
       {/* <!-- Mobile menu, show/hide based on menu open state. --> */}
