@@ -20,6 +20,7 @@ import { Nav } from './components/Blocks/Nav';
 import { Contact } from './components/Pages/Contact';
 import { TechSkills } from './components/Pages/TechSkills';
 import { Projects } from './components/Pages/Projects';
+import Api from './components/Blocks/ApiTest';
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
       <TechSkills/>
       {/* <Projects/> */}
       <Contact/>  
+      {/* <Api/> */}
     </div>
   );
 }
