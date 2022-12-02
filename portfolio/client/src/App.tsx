@@ -1,4 +1,5 @@
 import React from 'react';
+import { BrowserRouter } from 'react-router-dom';
 import './App.css';
 import { LandingPage } from './components/Pages/Header';
 import { AboutMe } from './components/Pages/AboutMe';
@@ -24,6 +25,7 @@ import Api from './components/Blocks/ApiTest';
 
 function App() {
   return (
+    <BrowserRouter>
     <div className="App">
       <Nav/>
       <LandingPage/>
@@ -32,6 +34,7 @@ function App() {
       <Contact/>  
       {/* <Api/> */}
     </div>
+    </BrowserRouter>
   );
 }
 

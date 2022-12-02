@@ -16,6 +16,9 @@ code {
     monospace;
 }
 
+html {
+  scroll-behavior: smooth;
+}
 
 @font-face {
     font-family: 'Apercu Pro';

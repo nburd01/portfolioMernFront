@@ -2,7 +2,7 @@ import React from 'react'
 
 export const Projects = () => {
     return (
-        <div className="isolate flex h-screen bg-beige">
+        <section className="isolate flex h-screen bg-beige" id='Projects'>
 
           
           {/* header */}
@@ -37,6 +37,6 @@ export const Projects = () => {
           </main>
         
         
-        </div>
+        </section>
           )
         }
