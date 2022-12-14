@@ -1,6 +1,5 @@
 import React from "react";
 
-
 function Api() {
   const [data, setData] = React.useState(null);
   console.log("data",data)

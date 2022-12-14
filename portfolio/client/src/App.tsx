@@ -32,7 +32,7 @@ function App() {
       <TechSkills/>
       {/* <Projects/> */}
       <Contact/>  
-      {/* <Api/> */}
+      <Api/>
     </div>
     </BrowserRouter>
   );
