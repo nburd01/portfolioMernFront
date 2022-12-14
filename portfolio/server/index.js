@@ -13,8 +13,8 @@ app.use(cors());
 
 //https://www.mongodb.com/cloud/atlas
 
-// const CONNECTION_URL = process.env.MONGO_CONNECTION_URL;
-const CONNECTION_URL = "mongodb+srv://nburd01:R1CB6HV5dClzylvJ@portfolio.7bqg8wm.mongodb.net/?retryWrites=true&w=majority";
+const CONNECTION_URL = process.env.MONGO_CONNECTION_URL;
+
 
 const PORT = process.env.PORT || 5000;
 mongoose.connect(CONNECTION_URL, { useNewUrlParser: true, useUnifiedTopology: true })
