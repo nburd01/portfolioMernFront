@@ -14,16 +14,16 @@ app.use(cors());
 //https://www.mongodb.com/cloud/atlas
 
 // const CONNECTION_URL = process.env.MONGO_CONNECTION_URL;
-const CONNECTION_URL = "mongodb+srv://nburd01:yt01aXuNGBHJJDiE@portfolio.7bqg8wm.mongodb.net/?retryWrites=true&w=majority";
-
+const CONNECTION_URL = "mongodb+srv://nburd01:R1CB6HV5dClzylvJ@portfolio.7bqg8wm.mongodb.net/?retryWrites=true&w=majority";
 
 const PORT = process.env.PORT || 5000;
+mongoose.connect(CONNECTION_URL, { useNewUrlParser: true, useUnifiedTopology: true })
+  .then(() => app.listen(PORT, () => console.log(`Server Running on Port: http://localhost:${PORT}`)))
+  .catch((error) => console.log(`${error} did not connect`));
+
 
 app.get("/posts", (req, res) => {
     res.json({ message: "Hello from server!" });
   });
-app.listen(PORT, () => {
-console.log(`Server listening on ${PORT}`);
-});
 
 // mongoose.set('useFindAndModify', false);
