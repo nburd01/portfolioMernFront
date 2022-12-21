@@ -1,5 +1,11 @@
 import PostMessage from "../models/postMessage.js";
+//test
+// export const getPosts = (req, res) => {
+//     res.send('This works in controller')
+// }
 
+
+//The controller contains the triggers
 export const getPosts = async (req, res) =>{
     try{
         const PostMessages = await PostMessage.find();
