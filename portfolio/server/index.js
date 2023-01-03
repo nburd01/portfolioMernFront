@@ -5,6 +5,7 @@ import mongoose from 'mongoose';
 import cors from 'cors';
 import dotenv from 'dotenv';
 import postRoutes from './routes/posts.js';
+import PostMessage from './models/postMessage.js';
 
 const app = express();
 dotenv.config()
@@ -17,9 +18,41 @@ app.use(cors());
 
 const PORT = process.env.PORT || 5000;
 
-mongoose.connect(process.env.CONNECTION_URL, { useNewUrlParser: true, useUnifiedTopology: true })
-  .then(() => app.listen(PORT, () => console.log(`Server Running on Port: http://localhost:${PORT}`)))
-  .catch((error) => console.log(`${error} did not connect`));
+//---------------------------------------
+
+async function connectPort() {
+  try{
+    await app.listen(PORT, () => console.log(`Server Running on Port: http://localhost:${PORT}`))
+  } catch (err) {
+    console.log(`${err} did not connect`);
+  }
+}
+connectPort();
+//---------------------------------------
+async function connectDB() {
+  try{
+    await mongoose.connect(process.env.CONNECTION_URL)
+    console.log("connected to mongodb")
+  } catch (err) {
+    console.error(err);
+  }
+}
+connectDB();
+//---------------------------------------
+const post = new PostMessage({
+  email: 'niall@test.fr',
+  message: 'Yeah',
+});
+
+post.save();
+console.log(post);
+
+// Find a single blog post
+// PostMessage.findOne({}, (err, post) => {
+//   console.log(post);
+// });
+//---------------------------------------
+
 
 //if using this get only and calling API in client => functions
 //localhost:3000/posts functions with /posts below + localhost5000/ called in api
